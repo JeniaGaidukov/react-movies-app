@@ -1,11 +1,11 @@
 export function Footer() {
   return (
-    <footer className="page-footer green lighten-3">
+    <footer className="page-footer blue-grey lighten-2">
       <div className="footer-copyright">
         <div className="container">
           © {new Date().getFullYear()} Copyright Text
-          <a className="grey-text text-lighten-4 right" href="#!">
-            Repo
+          <a className="grey-text text-lighten-4 right" rel="noreferrer" target="_blank" href="https://github.com/JeniaGaidukov/react-movies-app">
+            My Repo
           </a>
         </div>
       </div>
